@@ -199,7 +199,7 @@ Functional annotation was done using Interproscan.
 ```                 
 ### TOGA
 
-Our last approach was to perform annotation based on ortholog genes of different species using TOGA (https://github.com/hillerlab/TOGA). This method uses pairwise genome alignment chains between an annotated reference genome (here chicken, _Gallus gallus,_ GRCg6a_;_ Zebra Finch, _Taenopygia guttata_, bTaeGut1.4, and _Chiroxiphia lanceolata_, bChiLan1) and the query species (here _H. margaritaceiventer_).
+Our last approach was to perform annotation based on ortholog genes of different species using TOGA (https://github.com/hillerlab/TOGA). This method uses pairwise genome alignment chains between an annotated reference genome (here chicken, _Gallus gallus,_ GRCg6a; _Zebra Finch_, _Taenopygia guttata_, bTaeGut1.4, and _Chiroxiphia lanceolata_, bChiLan1) and the query species (here _H. margaritaceiventer_).
 
 First, we performed an aligment using Cactus. Below, the example using _C. lanceolata_.
 ```
@@ -219,5 +219,3 @@ hemMar.2bit --kt --pn hemMar.chiLan.toga \
 --nc nextflow_config_files \
 --cb 10,100,200 --cjn 750
 ```
-
-
